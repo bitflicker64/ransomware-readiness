@@ -43,5 +43,50 @@
     "weight": 2,
     "why": "Phishing email is one of the most common ways ransomware gets delivered.",
     "fix": "Enable phishing and attachment filtering on your mail service and block risky file types."
+  },
+  {
+    "id": "D1",
+    "category": "Detection",
+    "text": "Is suspicious activity on devices and accounts monitored?",
+    "safe_answer": "yes",
+    "weight": 3,
+    "why": "Attackers often spend days inside a network before encrypting. Monitoring can catch them first.",
+    "fix": "Turn on alerts in your EDR or security tools and name a person who responds to them."
+  },
+  {
+    "id": "D2",
+    "category": "Detection",
+    "text": "Are logs from key systems collected in one central place?",
+    "safe_answer": "yes",
+    "weight": 2,
+    "why": "Attackers delete local logs. Central logs let you see what happened and when.",
+    "fix": "Send logs from servers, firewalls and identity systems to a central log store and keep 90 days."
+  },
+  {
+    "id": "D3",
+    "category": "Detection",
+    "text": "Do you get alerts for unusual file changes, such as many files renamed or encrypted?",
+    "safe_answer": "yes",
+    "weight": 2,
+    "why": "Mass file changes are an early sign that encryption has started.",
+    "fix": "Enable file activity or ransomware-behaviour alerts in your EDR or file server."
+  },
+  {
+    "id": "D4",
+    "category": "Detection",
+    "text": "Are security logs reviewed at least weekly?",
+    "safe_answer": "yes",
+    "weight": 1,
+    "why": "Logs nobody reads do not help you spot an intrusion in time.",
+    "fix": "Book a weekly slot to review security alerts and failed or unusual logins."
+  },
+  {
+    "id": "D5",
+    "category": "Detection",
+    "text": "Do staff know how to report a suspected phishing email?",
+    "safe_answer": "yes",
+    "weight": 1,
+    "why": "Staff are often the first to see an attack. A quick report shortens the response time.",
+    "fix": "Publish one simple way to report phishing, such as a report button or a shared address."
   }
 ]
