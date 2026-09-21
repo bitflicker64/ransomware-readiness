@@ -1,0 +1,47 @@
+[
+  {
+    "id": "P1",
+    "category": "Prevention",
+    "text": "Is antivirus or EDR installed and running on all devices?",
+    "safe_answer": "yes",
+    "weight": 3,
+    "why": "Unprotected devices let ransomware run without being blocked or flagged.",
+    "fix": "Deploy antivirus or EDR to every laptop, desktop and server, and check coverage monthly."
+  },
+  {
+    "id": "P2",
+    "category": "Prevention",
+    "text": "Is multi-factor authentication (MFA) enabled for email, VPN and admin accounts?",
+    "safe_answer": "yes",
+    "weight": 3,
+    "why": "Stolen passwords are a common way in. MFA stops most logins made with them.",
+    "fix": "Turn on MFA for email, remote access and every admin account first, then for all users."
+  },
+  {
+    "id": "P3",
+    "category": "Prevention",
+    "text": "Are operating systems and software patched at least monthly?",
+    "safe_answer": "yes",
+    "weight": 3,
+    "why": "Ransomware groups exploit known, already-fixed vulnerabilities in unpatched systems.",
+    "fix": "Set a monthly patch cycle and patch internet-facing systems within days of critical updates."
+  },
+  {
+    "id": "P4",
+    "category": "Prevention",
+    "text": "Do normal users have admin rights on their own computers?",
+    "safe_answer": "no",
+    "weight": 2,
+    "why": "Malware runs with the user's rights. Admin rights let it disable defences and spread.",
+    "fix": "Remove local admin rights from everyday accounts and use separate admin accounts when needed."
+  },
+  {
+    "id": "P5",
+    "category": "Prevention",
+    "text": "Is incoming email filtered for phishing and malicious attachments?",
+    "safe_answer": "yes",
+    "weight": 2,
+    "why": "Phishing email is one of the most common ways ransomware gets delivered.",
+    "fix": "Enable phishing and attachment filtering on your mail service and block risky file types."
+  }
+]
