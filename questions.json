@@ -88,5 +88,50 @@
     "weight": 1,
     "why": "Staff are often the first to see an attack. A quick report shortens the response time.",
     "fix": "Publish one simple way to report phishing, such as a report button or a shared address."
+  },
+  {
+    "id": "R1",
+    "category": "Recovery",
+    "text": "Are important systems and data backed up regularly?",
+    "safe_answer": "yes",
+    "weight": 3,
+    "why": "Without backups, the only ways back are paying the ransom or losing the data.",
+    "fix": "Back up critical data at least daily and servers at least weekly."
+  },
+  {
+    "id": "R2",
+    "category": "Recovery",
+    "text": "Is at least one backup kept offline or immutable?",
+    "safe_answer": "yes",
+    "weight": 3,
+    "why": "Ransomware often encrypts or deletes backups it can reach.",
+    "fix": "Keep one backup copy offline or on immutable storage."
+  },
+  {
+    "id": "R3",
+    "category": "Recovery",
+    "text": "Have you tested restoring from backup in the last six months?",
+    "safe_answer": "yes",
+    "weight": 2,
+    "why": "Untested backups often fail or turn out incomplete when you need them.",
+    "fix": "Restore a sample of files and one full system from backup every quarter and record the result."
+  },
+  {
+    "id": "R4",
+    "category": "Recovery",
+    "text": "Is there a written list of critical systems in the order they must be restored?",
+    "safe_answer": "yes",
+    "weight": 1,
+    "why": "During an outage, time is lost deciding what to bring back first.",
+    "fix": "List critical systems, their owners and their restore order, and keep a printed copy."
+  },
+  {
+    "id": "R5",
+    "category": "Recovery",
+    "text": "Is there an agreed recovery time target for critical systems?",
+    "safe_answer": "yes",
+    "weight": 1,
+    "why": "Without a target, you cannot tell whether your backups can restore fast enough.",
+    "fix": "Agree how many hours each critical system can be down and check your restore tests meet it."
   }
 ]
