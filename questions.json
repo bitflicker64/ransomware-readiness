@@ -133,5 +133,50 @@
     "weight": 1,
     "why": "Without a target, you cannot tell whether your backups can restore fast enough.",
     "fix": "Agree how many hours each critical system can be down and check your restore tests meet it."
+  },
+  {
+    "id": "S1",
+    "category": "Response",
+    "text": "Is there a written incident response plan that covers ransomware?",
+    "safe_answer": "yes",
+    "weight": 3,
+    "why": "Without a plan, people improvise under pressure and make mistakes.",
+    "fix": "Write a short ransomware response plan covering roles, first steps, communication and recovery."
+  },
+  {
+    "id": "S2",
+    "category": "Response",
+    "text": "Do staff know the first steps to take if they see a ransom note?",
+    "safe_answer": "yes",
+    "weight": 2,
+    "why": "Quick, correct first steps, such as disconnecting the device, limit how far it spreads.",
+    "fix": "Give all staff a one-page guide: disconnect from the network, do not power off, call IT."
+  },
+  {
+    "id": "S3",
+    "category": "Response",
+    "text": "Have you run a ransomware drill or tabletop exercise in the last year?",
+    "safe_answer": "yes",
+    "weight": 2,
+    "why": "Drills show the gaps in a plan before a real attack does.",
+    "fix": "Run a one-hour tabletop exercise once a year using a ransomware scenario."
+  },
+  {
+    "id": "S4",
+    "category": "Response",
+    "text": "Is there an up-to-date list of emergency contacts, including IT, management and outside help?",
+    "safe_answer": "yes",
+    "weight": 1,
+    "why": "Email and chat may be down during an attack, so contact details must exist elsewhere.",
+    "fix": "Keep an offline contact list with IT, leadership, your insurer and incident response partners."
+  },
+  {
+    "id": "S5",
+    "category": "Response",
+    "text": "Is there a way to quickly isolate infected machines from the network?",
+    "safe_answer": "yes",
+    "weight": 2,
+    "why": "Ransomware spreads across the network. Fast isolation limits the damage.",
+    "fix": "Set up network isolation in your EDR or switches and document who can trigger it."
   }
 ]
